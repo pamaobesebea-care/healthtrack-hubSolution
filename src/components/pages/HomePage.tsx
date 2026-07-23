@@ -18,16 +18,15 @@ import {
 } from 'lucide-react';
 import { PageType } from '../../types';
 import { HEALTH_ARTICLES } from '../../data/articles';
-import { AdSenseBanner } from '../AdSenseBanner';
 import { NewsletterSignup } from '../NewsletterSignup';
 
 interface HomePageProps {
   onNavigate: (page: PageType, param?: string) => void;
   onOpenSearch: () => void;
-  showAdPreview: boolean;
+  showAdPreview?: boolean;
 }
 
-export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch, showAdPreview }) => {
+export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) => {
   return (
     <div className="space-y-16 animate-in fade-in duration-200">
       
@@ -95,9 +94,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch, sh
           </div>
         </div>
       </section>
-
-      {/* AdSense Top Placeholder */}
-      <AdSenseBanner showAdPreview={showAdPreview} slotId="HOMEPAGE_TOP" />
 
       {/* Calculators Suite Section */}
       <section className="space-y-6">
@@ -309,9 +305,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch, sh
 
       {/* Newsletter Signup Section */}
       <NewsletterSignup />
-
-      {/* AdSense Bottom Placeholder */}
-      <AdSenseBanner showAdPreview={showAdPreview} slotId="HOMEPAGE_BOTTOM" />
 
     </div>
   );

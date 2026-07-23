@@ -23,24 +23,10 @@ import { AboutPage } from './components/pages/AboutPage';
 import { ContactPage } from './components/pages/ContactPage';
 import { LegalPage } from './components/pages/LegalPage';
 
-// Storage helper for AdSense state
-import { getAdPreviewEnabled, setAdPreviewEnabled } from './utils/storage';
-
 export default function App() {
   const [currentPage, setCurrentPage] = useState<PageType>('home');
   const [selectedArticleSlug, setSelectedArticleSlug] = useState<string | undefined>(undefined);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
-  const [showAdPreview, setShowAdPreview] = useState<boolean>(true);
-
-  useEffect(() => {
-    setShowAdPreview(getAdPreviewEnabled());
-  }, []);
-
-  const handleToggleAdPreview = () => {
-    const nextVal = !showAdPreview;
-    setShowAdPreview(nextVal);
-    setAdPreviewEnabled(nextVal);
-  };
 
   const handleNavigate = (page: PageType, param?: string) => {
     if (page === 'article-detail' && param) {
@@ -63,8 +49,6 @@ export default function App() {
         currentPage={currentPage}
         onNavigate={handleNavigate}
         onOpenSearch={() => setSearchModalOpen(true)}
-        showAdPreview={showAdPreview}
-        onToggleAdPreview={handleToggleAdPreview}
       />
 
       {/* Main Content Area */}
@@ -75,7 +59,6 @@ export default function App() {
           <HomePage 
             onNavigate={handleNavigate} 
             onOpenSearch={() => setSearchModalOpen(true)}
-            showAdPreview={showAdPreview}
           />
         )}
 
