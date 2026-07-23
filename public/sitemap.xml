@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Main Home Page -->
   <url>
-    <loc>https://healthtrackhub.com/</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,25 +10,25 @@
 
   <!-- Health Calculators -->
   <url>
-    <loc>https://healthtrackhub.com/bmi-calculator</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/bmi-calculator</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/calorie-calculator</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/calorie-calculator</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/water-calculator</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/water-calculator</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/ideal-weight-calculator</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/ideal-weight-calculator</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -36,19 +36,19 @@
 
   <!-- Daily Wellness Trackers -->
   <url>
-    <loc>https://healthtrackhub.com/weight-tracker</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/weight-tracker</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/sleep-tracker</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/sleep-tracker</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/medication-reminder</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/medication-reminder</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -64,63 +64,63 @@
 
   <!-- Medically Reviewed Health Articles -->
   <url>
-    <loc>https://healthtrackhub.com/articles/understanding-bmi-vs-body-composition</loc>
-    <lastmod>2026-07-20</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/understanding-bmi-vs-body-composition</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/articles/how-to-calculate-tdee-and-caloric-deficit</loc>
-    <lastmod>2026-07-18</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/how-to-calculate-tdee-and-caloric-deficit</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/articles/daily-hydration-guide-water-intake-science</loc>
-    <lastmod>2026-07-15</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/daily-hydration-guide-water-intake-science</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/articles/sleep-hygiene-circadian-rhythm-optimization</loc>
-    <lastmod>2026-07-12</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/sleep-hygiene-circadian-rhythm-optimization</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/articles/medication-adherence-and-safety-guide</loc>
-    <lastmod>2026-07-10</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/medication-adherence-and-safety-guide</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/articles/evidence-based-fitness-strength-training-guide</loc>
-    <lastmod>2026-07-22</lastmod>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles/evidence-based-fitness-strength-training-guide</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Institutional & Legal Pages -->
   <url>
-    <loc>https://healthtrackhub.com/about</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/about</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/contact</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/contact</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/privacy</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/privacy</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://healthtrackhub.com/disclaimer</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/disclaimer</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
