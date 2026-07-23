@@ -1,0 +1,6 @@
+{
+  "name": "HealthTrack Hub",
+  "description": "Professional healthcare utility platform featuring free interactive health calculators, daily wellness trackers, evidence-based health articles, and medical disclaimers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
