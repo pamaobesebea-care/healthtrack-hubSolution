@@ -56,7 +56,7 @@
 
   <!-- Health Education & Articles Hub -->
   <url>
-    <loc>https://healthtrackhub.com/articles</loc>
+    <loc>https://healthtrack-hub-solution.vercel.app/articles</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
