@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Indexing Location
-Sitemap: https://healthtrackhub.com/sitemap.xml
+Sitemap: https://healthtrack-hub-solution.vercel.app/sitemap.xml
