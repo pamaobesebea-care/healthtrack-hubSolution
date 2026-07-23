@@ -19,6 +19,7 @@ import {
 import { PageType } from '../../types';
 import { HEALTH_ARTICLES } from '../../data/articles';
 import { AdSenseBanner } from '../AdSenseBanner';
+import { NewsletterSignup } from '../NewsletterSignup';
 
 interface HomePageProps {
   onNavigate: (page: PageType, param?: string) => void;
@@ -305,6 +306,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch, sh
           ))}
         </div>
       </section>
+
+      {/* Newsletter Signup Section */}
+      <NewsletterSignup />
 
       {/* AdSense Bottom Placeholder */}
       <AdSenseBanner showAdPreview={showAdPreview} slotId="HOMEPAGE_BOTTOM" />

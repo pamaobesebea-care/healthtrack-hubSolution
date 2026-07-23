@@ -12,9 +12,9 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     featured: true,
     metaKeywords: ['BMI calculator', 'body mass index', 'body composition', 'ideal weight', 'metabolic health', 'fat percentage'],
     author: {
-      name: 'Dr. Sarah Jenkins, MD',
-      role: 'Board-Certified Internal Medicine & Clinical Nutrition Specialist',
-      avatar: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&auto=format&fit=crop&q=80'
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
     },
     content: [
       {
@@ -59,9 +59,9 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     featured: true,
     metaKeywords: ['calorie calculator', 'TDEE calculator', 'BMR formula', 'caloric deficit', 'macronutrient balance', 'fat loss'],
     author: {
-      name: 'Marcus Vance, MS, RD',
-      role: 'Registered Dietitian & Sports Nutritionist',
-      avatar: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=150&auto=format&fit=crop&q=80'
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
     },
     content: [
       {
@@ -99,9 +99,9 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     featured: false,
     metaKeywords: ['water intake calculator', 'hydration tracker', 'daily water goal', 'electrolytes', 'kidney health'],
     author: {
-      name: 'Dr. Elena Rostova, MD',
-      role: 'Nephrologist & Wellness Researcher',
-      avatar: 'https://images.unsplash.com/photo-1594824813566-82823d293f45?w=150&auto=format&fit=crop&q=80'
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
     },
     content: [
       {
@@ -135,9 +135,9 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     featured: false,
     metaKeywords: ['sleep tracker', 'sleep hygiene', 'circadian rhythm', 'REM sleep', 'deep sleep', 'sleep debt'],
     author: {
-      name: 'Dr. Julian Thorne, PhD',
-      role: 'Neuroscientist & Sleep Medicine Specialist',
-      avatar: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&auto=format&fit=crop&q=80'
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
     },
     content: [
       {
@@ -170,9 +170,9 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
     featured: false,
     metaKeywords: ['medication reminder', 'pill tracker', 'prescription management', 'medication adherence', 'drug interaction'],
     author: {
-      name: 'PharmD Claire Sterling',
-      role: 'Clinical Pharmacist',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80'
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
     },
     content: [
       {
@@ -186,6 +186,50 @@ export const HEALTH_ARTICLES: HealthArticle[] = [
         heading: 'Best Practices for Managing Your Daily Medications',
         paragraphs: [
           'Pair medication doses with routine daily habits (e.g., morning coffee or evening toothbrushing). Use automated digital trackers like HealthTrack Hub Medication Reminder to keep an accurate digital pill log.'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'art-6',
+    slug: 'evidence-based-fitness-strength-training-guide',
+    title: 'Evidence-Based Fitness & Strength Training: Building a Sustainable Routine',
+    category: 'Fitness',
+    summary: 'Discover how progressive overload, resistance training, and aerobic conditioning work together to increase lean muscle mass, protect cardiovascular health, and boost longevity.',
+    readTimeMinutes: 7,
+    publishedDate: '2026-07-22',
+    featured: true,
+    metaKeywords: ['fitness guide', 'strength training', 'progressive overload', 'hypertrophy', 'cardiovascular health', 'workout routine'],
+    author: {
+      name: 'HealthTrack Hub Editorial Team',
+      role: 'Educational Health Content',
+      avatar: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=150&auto=format&fit=crop&q=80'
+    },
+    content: [
+      {
+        heading: 'The Pillars of Physical Fitness',
+        paragraphs: [
+          'Achieving optimal physical health requires a balanced approach combining resistance training, aerobic exercise, mobility work, and adequate recovery. Research demonstrates that combining strength training with cardiovascular exercise yields superior health outcomes compared to either modality alone.',
+          'Understanding how to structure your weekly routine ensures maximum adaptation while minimizing injury risk and burnout.'
+        ]
+      },
+      {
+        heading: 'Progressive Overload & Hypertrophy Principles',
+        paragraphs: [
+          'At the core of muscle building and strength gain is the principle of progressive overload — gradually increasing the resistance, volume, or intensity over time. This triggers neuromuscular adaptations and muscular hypertrophy.',
+          'To optimize progress, aim to train each major muscle group 2 to 3 times per week, maintaining 2 to 4 sets per exercise within an 8–12 rep range for hyperthrophy or 3–6 rep range for power.'
+        ],
+        keyTakeaways: [
+          'Track your weights and repetitions systematically.',
+          'Ensure 48 hours of recovery between intense training sessions for the same muscle group.',
+          'Pair resistance workouts with calculated daily calorie and protein targets.'
+        ]
+      },
+      {
+        heading: 'Aerobic Conditioning for Heart & Metabolic Longevity',
+        paragraphs: [
+          'Cardiovascular exercise enhances mitochondrial density, lowers resting heart rate, improves insulin sensitivity, and reduces all-cause mortality.',
+          'The World Health Organization recommends at least 150–300 minutes of moderate-intensity aerobic exercise or 75–150 minutes of vigorous-intensity aerobic exercise weekly.'
         ]
       }
     ]

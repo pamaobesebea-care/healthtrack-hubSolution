@@ -1,4 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
 
-Sitemap: https://healthtrack-hub-solution.vercel.app/sitemap.xml
+# Sitemap Indexing Location
+Sitemap: https://healthtrackhub.com/sitemap.xml

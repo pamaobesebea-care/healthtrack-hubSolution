@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { HEALTH_ARTICLES } from '../../data/articles';
 import { HealthArticle, PageType } from '../../types';
+import { NewsletterSignup } from '../NewsletterSignup';
 
 interface ArticlesPageProps {
   selectedSlug?: string;
@@ -63,6 +64,14 @@ export const ArticlesPage: React.FC<ArticlesPageProps> = ({ selectedSlug, onNavi
             <p className="text-base text-slate-600 leading-relaxed font-normal">
               {articleDetail.summary}
             </p>
+          </div>
+
+          {/* Educational Purpose Notice */}
+          <div className="p-4 bg-amber-50/80 border border-amber-200/80 rounded-2xl flex items-start gap-3 text-xs text-amber-950">
+            <ShieldCheck className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+            <div className="leading-relaxed">
+              <span className="font-bold">Educational Purpose Notice:</span> This article is created strictly for educational and informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider regarding any health condition or medical concerns.
+            </div>
           </div>
 
           {/* Author Card */}
@@ -151,6 +160,9 @@ export const ArticlesPage: React.FC<ArticlesPageProps> = ({ selectedSlug, onNavi
 
         </article>
 
+        {/* Newsletter Signup Section */}
+        <NewsletterSignup />
+
       </div>
     );
   }
@@ -174,7 +186,7 @@ export const ArticlesPage: React.FC<ArticlesPageProps> = ({ selectedSlug, onNavi
         <div className="relative z-10 max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-xs font-semibold text-emerald-200">
             <Sparkles className="w-3.5 h-3.5 text-emerald-300" />
-            <span>Medically Reviewed Articles</span>
+            <span>Educational Health Articles</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">Health Education & Guides</h1>
           <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
@@ -256,6 +268,9 @@ export const ArticlesPage: React.FC<ArticlesPageProps> = ({ selectedSlug, onNavi
           </div>
         )}
       </div>
+
+      {/* Newsletter Signup */}
+      <NewsletterSignup />
 
     </div>
   );
