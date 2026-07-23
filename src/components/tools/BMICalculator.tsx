@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { UnitSystem, BMIResult, PageType } from '../../types';
 import { calculateBMI, kgToLbs, lbsToKg, cmToFeetInches, feetInchesToCm } from '../../utils/healthCalculators';
+import { FAQSection } from '../FAQSection';
 
 interface BMICalculatorProps {
   onNavigate?: (page: PageType) => void;
@@ -408,6 +409,9 @@ export const BMICalculator: React.FC<BMICalculatorProps> = ({ onNavigate }) => {
         </div>
 
       </div>
+
+      {/* FAQ Section */}
+      <FAQSection />
 
     </div>
   );

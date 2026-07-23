@@ -19,6 +19,7 @@ import {
 import { PageType } from '../../types';
 import { HEALTH_ARTICLES } from '../../data/articles';
 import { NewsletterSignup } from '../NewsletterSignup';
+import { FAQSection } from '../FAQSection';
 
 interface HomePageProps {
   onNavigate: (page: PageType, param?: string) => void;
@@ -302,6 +303,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) 
           ))}
         </div>
       </section>
+
+      {/* Frequently Asked Questions Section */}
+      <FAQSection />
 
       {/* Newsletter Signup Section */}
       <NewsletterSignup />

@@ -9,6 +9,7 @@ import {
   Scale, 
   Sparkles
 } from 'lucide-react';
+import { FAQSection } from '../FAQSection';
 
 export const AboutPage: React.FC = () => {
   return (
@@ -72,6 +73,9 @@ export const AboutPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <FAQSection />
 
     </div>
   );

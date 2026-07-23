@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { UnitSystem, ActivityLevel, GoalType, CalorieResult } from '../../types';
 import { calculateCalories, kgToLbs, lbsToKg, cmToFeetInches, feetInchesToCm } from '../../utils/healthCalculators';
+import { FAQSection } from '../FAQSection';
 
 export const CalorieCalculator: React.FC = () => {
   const [unit, setUnit] = useState<UnitSystem>('metric');
@@ -335,6 +336,9 @@ export const CalorieCalculator: React.FC = () => {
         </div>
 
       </div>
+
+      {/* FAQ Section */}
+      <FAQSection />
 
     </div>
   );
